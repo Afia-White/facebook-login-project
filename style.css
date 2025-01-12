@@ -10,7 +10,7 @@ body{
 }
 
 .first-nav{
-    background-color:white;
+    background-color:whitesmoke;
     height:350px;
     width:450px;
     margin-left:450px;
@@ -28,5 +28,16 @@ body{
 .face{
     color:blue;
     text-align:center;
-    font-weight:500;
+    font-size:40px;
+    text-transform: lowercase;
+}
+
+.log{
+    height:250px;
+    width:350px;
+    margin-left:50px;
+    text-align: center;
+    border:100px solid white ;
+    color:blck;
+    background-color:white;
 }
