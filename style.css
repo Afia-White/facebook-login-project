@@ -76,13 +76,28 @@ body{
     text-align: center;
 }
 
-.for :nth-child(2){
-    text-decoration:none;
-    font-size:14px;
-}
-
 .for :nth-child(1){
     text-decoration:none;
     font-size:14px;
-    
+    padding-left:90px;
+}
+
+.for :nth-child(2){
+    text-decoration:none;
+    font-size:14px;
+    padding-left:-90px;
+}
+
+[type="email"],[type="password"],[type="log in"]{
+    width: 80%;
+    height:50px;
+    margin-top:20px;
+    /* justify-content: space-between; */
+}
+
+[type="log in"]{
+    text-align: center;
+    color:white;
+    background-color:black;
+    margin-top:20px;
 }
