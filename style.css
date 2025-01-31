@@ -38,7 +38,7 @@ body{
 
 .email{
     height:50px;
-    margin-left:10px;
+    margin-left:100px;
     margin-right:100px;
     border:0px solid white;
     color:grey;
@@ -51,7 +51,7 @@ body{
  
 .pass{
     height:50px;
-    margin-left:10px;
+    margin-left:100px;
     margin-right:100px;
     border:0px solid white;
     color:grey;
@@ -76,18 +76,13 @@ body{
     text-align: center;
 }
 
-.for{
-    color:blue;
-    display:flex;
-    font-size:9px;
-    gap:3px;
+.for :nth-child(2){
+    text-decoration:none;
+    font-size:14px;
 }
 
-.sign{
-    margin-right:150px;
-    margin-left:100px;
-}
-
-.got{
-    margin-left:50px;
+.for :nth-child(1){
+    text-decoration:none;
+    font-size:14px;
+    
 }
